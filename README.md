@@ -1,4 +1,4 @@
-# Ng2TestMaterial
+# Ng2TestMaterial: A Project to begin exploring the use of Angular Material 2 with Angular 2
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.15.
 
