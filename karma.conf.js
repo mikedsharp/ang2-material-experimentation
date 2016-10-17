@@ -12,8 +12,12 @@ module.exports = function (config) {
       require('angular-cli/plugins/karma')
     ],
     files: [
-      { pattern: './src/test.ts', watched: false }
+      { pattern: './src/test.ts', watched: false }, 
+       { pattern: './src/assets/**', watched: false, included:false, nocache:false, served:true }
     ],
+    proxies: {
+      '/assets': '/base/src/assets/'
+    },
     preprocessors: {
       './src/test.ts': ['angular-cli']
     },
